@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Replace All Ac with Ze" | tr 'Ac' 'Ze'
+tr 'A' 'Z' | 'c' 'e'
+
