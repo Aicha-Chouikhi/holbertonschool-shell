@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "$last_line" >> iacta
+tail -10f iacta
+
