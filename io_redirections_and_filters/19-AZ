@@ -1,2 +1,3 @@
 #!/bin/bash
-echo tr -R 'A' 'Z' 'c' 'e'
+echo $word | tr Ac Ze
+
