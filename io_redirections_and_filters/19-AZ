@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $word | tr Ac Ze
+echo "Replace All Ac with Ze" | tr 'Ac' 'Ze'
