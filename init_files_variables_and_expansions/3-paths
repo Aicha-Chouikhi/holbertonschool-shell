@@ -1,2 +1,3 @@
 #!/bin/bash
-path=$PATH directories=(${path//:/ }) num_directories=${#directories[@]}
+echo $PATH | tr -s ':' '\n' | wc -l
+
